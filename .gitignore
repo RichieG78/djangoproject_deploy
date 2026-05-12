@@ -14,6 +14,7 @@ db.sqlite3
 # Logs
 *.log
 # Media files (user uploads, usually handled in production storage)
-media/
+media/*
+!media/default.jpg
 # Collected static files (generated during deploy)
 staticfiles/
